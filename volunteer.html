@@ -1,12 +1,137 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Safe Home | Volunteer</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/volunteer.css">
+    <title>Volunteer | Safe Home</title>
 </head>
-<body>
-  
+<body> 
+
+<!-- HEADER & NAV -->
+
+    <header>
+        <nav>
+            <ul>
+                <li id="logo"><a href="index.html">SAFE HOME</a></li>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+                <li><a href="resources.html">RESOURCES</a></li>
+                <li><a href="#">VOLUNTEER</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+<!-- MAIN -->
+    <main>
+        <h1>Looking to help out?</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum, id alias. Ad beatae, sint itaque id cum obcaecati culpa eius qui, necessitatibus nemo magnam? Officiis eaque labore maiores exercitationem consectetur!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, inventore optio mollitia porro dignissimos tenetur nostrum, magni quae officia doloribus minima unde animi rerum laborum ea, maiores accusamus harum aspernatur. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit ratione dolorum omnis eaque neque nisi, voluptates adipisci suscipit hic odio atque explicabo eum repellendus ea tenetur consequuntur, quidem dicta iusto!</p>
+        <section>
+            <img src="images/ismael-paramo-Cns0h4ypRyA-unsplash.jpg" alt="" class="photo" id="photo-1">
+            <img src="images/joel-muniz-qvzjG2pF4bE-unsplash.jpg" alt="" class="photo" id="photo-2">
+            <img src="images/joel-muniz-y3ZY6qFln_g-unsplash.jpg" alt="" class="photo" id="photo-3">
+        </section>
+    </main>
+
+    <!-- FORM -->
+    <div class="container">
+
+        <form action="/">
+
+            <div id="intro">
+                <h2>Volunteer Interest Form</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis facere eaque accusamus tenetur quisquam blanditiis deleniti repellat nesciunt.</p>
+            </div>
+
+            <label for="fname">First name:</label>
+                <input type="text" name="fname" id="fname" placeholder="John" required>
+            <br>
+
+            <label for="lname">Last name:</label>
+                <input type="text" name="lname" id="lname" placeholder="Doe" required>
+            <br>   
+            
+            <label for="phone">Phone number:</label>
+                <input type="tel" name="phone" id="phone" placeholder="123-456-7890" required>
+            <br>
+
+            <label for="email">Email address:</label>
+                <input type="email" name="email" id="email" placeholder="johndoe@site.com" required>
+            <br>
+            <label for="organization">Organization/business:</label>
+                <input type="text" name="organization" id="organization" placeholder="Optional">
+            <br>
+
+            <label for="today">Today's date:</label>
+                <input type="date" name="date" id="date" required>
+            <br>
+
+            <p>What days of the week are you available?</p>
+            <input type="checkbox" name="day-1" id="day-1" value="Sunday" required>
+                <label for="day-1">Sunday</label>
+            <input type="checkbox" name="day-2" id="day-2" value="Monday" required>
+                <label for="day-2">Monday</label>
+            <input type="checkbox" name="day-3" id="day-3" value="Tuesday" required>
+                <label for="day-3">Tuesday</label>
+            <input type="checkbox" name="day-4" id="day-4" value="Wednesday" required>
+                <label for="day-4">Wednesday</label>
+            <input type="checkbox" name="day-5" id="day-5" value="Thursday" required>
+                <label for="day-5">Thursday</label>
+            <input type="checkbox" name="day-6" id="day-6" value="Friday" required>
+                <label for="day-6">Friday</label>
+            <input type="checkbox" name="day-7" id="day-7" value="Saturday" required>
+                <label for="day-7">Saturday</label>
+            <br>
+
+            <label for="tod">What time of day do you prefer?</label>
+                <select name="tod" id="tod" required>
+                    <option value="morning">Morning</option>
+                    <option value="morning">Afternoon</option>
+                    <option value="morning">Evening</option>
+                    <option value="morning">Night</option>
+                    <option value="morning">Anytime</option>
+                </select>
+            <br>
+
+            <label for="interest">Why are you interested in volunteering with Safe Home?</label>
+                <br>
+                <textarea name="interest" id="interest" cols="50" rows="10" placeholder="Tell us here" required></textarea>
+                <br>
+
+            <label for="skills">Do you have any skills or background that would be relevant? Or, tell us what you're interested in doing at Safe Home!</label>
+                <br>
+                <textarea name="skills" id="skills" cols="50" rows="10" placeholder="Tell us here" required></textarea>
+                <br>
+
+            <label for="reference">Where did you hear about us?</label>
+                <input type="text" name="reference" id="reference" placeholder="Optional">
+                <br>
+                <button><a href="">SUBMIT</a></button>
+            
+        </form>
+</div>
+
+<!-- FOOTER -->
+
+<footer>
+    <nav>
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+            <li><a href="resources.html">RESOURCES</a></li>
+            <li><a href="#">VOLUNTEER</a></li>
+        </ul>
+        <div id="socials">
+            <a href="https://facebook.com"><img src="images/facebook.png" alt="facebook logo"></a>
+            <a href="https://twitter.com"><img src="images/twitter.png" alt="twitter logo"></a>
+            <a href="https://instagram.com"><img src="images/instagram.png" alt="instagram logo"></a>
+        </div>
+    </nav>
+</footer>
+
 </body>
 </html>
