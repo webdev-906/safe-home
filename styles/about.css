@@ -116,11 +116,13 @@ main {
     grid-column: 1 / 3;
     grid-row: 1 / 2;
     padding: 30px;
+    border-top: 5px solid #F9F5EB;
+    /* border-bottom: 5px solid #F9F5EB; */
 }
 
 #paragraphs {
-    padding: 15px;
-    background-color: #F9F5EB;
+    padding: 15px 150px 15px 150px;
+    /* background-color: #F9F5EB; */
     /* border: 5px solid #EAE3D2; */
 }
 
@@ -143,16 +145,13 @@ img {
     grid-column: 2 / span 1;
     grid-row: 2 / span 1;
     text-align: center;
+    background-color: #607EAA; 
+    border: 5px solid white;
+    padding-top: 50px;
 }
 
 h2 {
     font-size: 2em;
-}
-
-#services {
-    background-color: #607EAA;
-    border: 5px solid white;
-    padding-top: 50px;
 }
 
 #services-list li {
@@ -164,7 +163,8 @@ h2 {
     grid-row: 3 / 4;
     padding: 15px;
     background-color: white;
-    border: 5px solid #EAE3D2;
+    /* border: 5px solid #EAE3D2; */
+    border-bottom: 5px solid #F9F5EB;
 }
 
 #volunteer {
@@ -172,7 +172,8 @@ h2 {
     grid-row: 3 / 4;
     padding: 20px;
     background-color: white;
-    border: 5px solid #EAE3D2;
+    /* border: 5px solid #EAE3D2; */
+    border-bottom: 5px solid #F9F5EB;
 }
 
 h3 {

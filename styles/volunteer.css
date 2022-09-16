@@ -3,7 +3,7 @@
 body {
     text-align: center;
     font-family: sans-serif;
-    background-color: #1C3879;
+    background-color: white;
 }
 
 a {
@@ -24,13 +24,18 @@ button a {
 
 /* HEADER & FOOTER */
 
+header {
+    background-color: white;
+    margin: none;
+}
+
 header a {
     font-weight: bold;
-    color: white;
+    color: #1C3879;
 }
 
 header a:hover {
-    color: #EAE3D2;
+    color: #607EAA;
 }
 
 header, footer {
@@ -41,13 +46,15 @@ header, footer {
 
 #logo {
     font-weight: bold;
-    font-style: italic;
+    /* font-style: italic; */
     font-size: 2em;
     width: 30%;
+    color: black;
+    font-family: serif;
 }
 
 #logo a:hover {
-    color:#607EAA;
+    color:#1C3879;
 }
 
 ul {
@@ -86,17 +93,28 @@ footer a:hover {
     object-fit: fill;
 }
 
+#last {
+    background-color: #1C3879;
+    color: white;
+    margin: 20px 0 0 0;
+    padding: 20px;
+    width: 100%;
+}
+
 /* MAIN */
 
 main {
     padding: 20px 60px 30px 60px;
-    background: #607EAA;
-    border: 5px solid #F9F5EB;
+    border-top: 5px solid #F9F5EB;
     margin: 0 10px;
 }
 
 h1 {
-    color: white;
+    color: #1C3879;
+}
+
+.main-paragraphs {
+    padding: 15px 150px 15px 150px;
 }
 
 img {
@@ -110,14 +128,15 @@ img {
 
 .container {
     margin-top: 20px;
+    border-bottom: 5px solid #F9F5EB;
 }
 
 form {
-    background-color: #F9F5EB;
+    /* background-color: #F9F5EB; */
     width: 50%;
     margin: 0 25%;
     padding: 15px;
-    border: 5px solid #607EAA;
+    /* border: 5px solid #F9F5EB; */
 }
 
 form * {
@@ -126,7 +145,6 @@ form * {
 
 #intro {
     padding: 15px;
-    background-color: #F9F5EB;
 }
 
 h2 {
