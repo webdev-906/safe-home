@@ -1,3 +1,8 @@
+body {
+  text-align: center;
+  font-family: sans-serif;
+  background-color: white;
+}
 
 main {
   background-color: #607eaa;
@@ -51,12 +56,6 @@ img {
 }
 
 /* GENERAL STYLES */
-
-body {
-  text-align: center;
-  font-family: sans-serif;
-  background-color: white;
-}
 
 a {
   text-decoration: none;
