@@ -49,10 +49,11 @@ img {
 
 
 
-
+/* Fixed image from repeating */
 .hero-image {
-  background:url("../images/resource-bg.jpg");
+  background:url("../images/resource-bg.jpg") no-repeat;
   min-height: 70vh;
+
 }
 
 /* GENERAL STYLES */
