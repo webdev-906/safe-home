@@ -146,6 +146,8 @@ footer a:hover {
 #socials img {
   width: 20px;
   object-fit: fill;
+  margin: 6px;
+  padding-top: 15px;
 }
 
 #last {
@@ -276,6 +278,11 @@ margin-left: 15px;
   #last {
     text-align: center;
   }
+
+  #last li {
+    margin-left: 30px;
+  }
+
   
 }
 
@@ -310,6 +317,9 @@ margin-left: 15px;
   }
   .testimonal-container img {
     width:75%;
+    margin-left: 140px;
   }
-
+  .testimonal-container p {
+    margin-left: 140px;
+  }
 }
