@@ -240,24 +240,28 @@ margin-left: 15px;
 
 /* Mobile Media Query */
 @media screen and (max-width: 425px) { 
-  header ul  {
-    flex-wrap: nowrap; 
-    flex-direction: column;
-  }
-  nav h2 {
-    margin: 5px;
+  #logo {
+    display: block;
+    width: 100%;
   }
 
-  nav ul {
-    flex-direction: column;
 
-  }
 
-  nav li {
-    margin: 15px;
+  footer {
     margin-right: 40px;
-    text-align: center;
   }
+
+  footer ul {
+    display: inline-block;
+  }
+
+  footer ul li {
+    padding: 15px;
+  }
+
+  footer #socials {
+    margin-left: 40px;
+  } 
 
   .hero-image {
     background-position-x: left;
@@ -280,26 +284,12 @@ margin-left: 15px;
   }
 
   #last li {
-    margin-left: 30px;
-  }
-
-  
+    margin-left: 35px;
+  } 
 }
 
 /* Media Query Tablet  */
 @media  screen and (min-width: 426px) and (max-width:768px) {
-  header ul  {
-    flex-wrap: nowrap;
-  }
-
-  header nav {
-    flex-direction: column;
-  }
-
-  header li {
-    padding: 5px;
-  }
-
   .resource-area, .review-area {
     flex-direction: column;
   
@@ -321,5 +311,8 @@ margin-left: 15px;
   }
   .testimonal-container p {
     margin-left: 140px;
+  }
+  footer #socials {
+    margin-left: 20px;
   }
 }
