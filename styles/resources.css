@@ -313,6 +313,13 @@ margin-left: 15px;
     margin-left: 140px;
   }
   footer #socials {
-    margin-left: 20px;
+    margin-left: 40px;
+  }
+  footer ul {
+    display: inline-block;
+  }
+
+  footer ul li {
+    padding: 15px;
   }
 }
