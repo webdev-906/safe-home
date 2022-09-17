@@ -1,12 +1,121 @@
+
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Safe Home | Contact</title>
+  <title>replit</title>
+  <link href="contact.css" rel="stylesheet" type="text/css" />
+  <script src="https://kit.fontawesome.com/eb621279ce.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
-  
+
+ <!-- HEADER & NAV -->
+    <header>
+        <nav>
+            <ul>
+                <li id="logo"><a href="index.html">Safe Home</a></li>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+                <li><a href="resources.html">RESOURCES</a></li>
+                <li><a href="volunteer.html">VOLUNTEER</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+  <div class="container">
+        
+        <form action="/action_page.php" target="_blank">
+ 
+            <div class="contact-box">
+              <div class=left></div>
+              <div class="right">
+                <h2>Contact Us</h2>
+                <br>
+                <br>
+                
+            <div class="input">
+            <input type="text" id="fname" name="fullname" required>
+            <label for="fname"><i class="fa-solid fa-user"></i> Full Name:</label>
+             </div>
+ <br>
+            <br>
+                  
+            <div class="input">
+            <input type="text" id="phonenumber" name="phonenumber" required>
+            <label for="phonenumber"><i class="fa-solid fa-phone"></i> Phone Number:</label>
+            </div>
+           
+
+            <br>
+            <br>
+
+            <div class="input">
+            <input type="text" id="email" name="email"  required>
+            <label for="email"><i class="fa-solid fa-envelope"></i> Email:</label>
+            </div>
+
+            <br>
+            <br>
+
+            <div class="input">
+            <select name="topics" id="topics" required>
+            <option value="">--Please choose an option--</option>
+            <option value="popups">Safehome Popups</option>
+            <option value="Volunteer">Volunteer</option>
+             <option value="foodpantry">Food Pantry</option>
+            <option value="localresources">Local Resources</option>
+              <option value="c/t">Clothing/Toiletries</option>
+              <option value="counseling">Counseling</option>
+              <option value="other">Other</option>
+            </select>
+            </div>
+            <br>
+            <br>
+
+
+           <div class="input">
+            <textarea id="message" required></textarea>
+            <label for="message"><i class="fa-solid fa-message"></i> Message or Inquiry:</label>
+        </div>
+
+            <br>
+            <br>
+ 
+            <button class="btn">Send</button>
+    </div>
+            </div>
+  </div>
+          
+        </form>
+
+<!-- FOOTER -->
+    <footer>
+        <nav>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+                <li><a href="resources.html">RESOURCES</a></li>
+                <li><a href="volunteer.html">VOLUNTEER</a></li>
+            </ul>
+            <div id="socials">
+                <a href="https://facebook.com"><img src="images/facebook.png" alt="facebook logo"></a>
+                <a href="https://twitter.com"><img src="images/twitter.png" alt="twitter logo"></a>
+                <a href="https://instagram.com"><img src="images/instagram.png" alt="instagram logo"></a>
+            </div>
+
+            <div id="last">
+                <p>1101 Red Ventures Dr., Fort Mill, SC 29707  |  (555) 555-555  |  info@safehome.com</p>
+                <p>&copy; Safe Home 2022</p>
+            </div>
+        </nav>
+    </footer>
+       
 </body>
+
 </html>

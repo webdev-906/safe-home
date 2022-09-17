@@ -1,0 +1,232 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+  }
+  
+  body {
+      text-align: center;
+      font-family: sans-serif;
+      /* background-color: #1C3879; */
+      background-color: white;
+  }
+  
+  a {
+      text-decoration: none;
+  }
+  
+  /* HEADER & FOOTER*/
+  
+  header {
+      background-color: white;
+      margin: none;
+  }
+  
+  header a {
+      font-weight: bold;
+      color: #1C3879;
+  }
+  
+  header a:hover {
+      color: #607EAA;
+  }
+  
+  header, footer {
+      height: 100%;
+      margin: none;
+      padding: 20px 10px;
+  }
+  
+  #logo {
+      font-weight: bold;
+      /* font-style: italic; */
+      font-size: 2em;
+      width: 30%;
+      color: black;
+      font-family: serif;
+  }
+  
+  #logo a:hover {
+      color:#1C3879;
+  }
+  
+  ul {
+      list-style: none;
+      margin: none;
+      padding: none;
+  }
+  
+  header ul, footer ul {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      align-items: center;
+  }
+  
+  footer ul li {
+      color: #EAE3D2;
+  }
+  
+  footer {
+      background-color: white;
+      margin-top: 15px;
+  }
+  
+  footer a {
+      font-weight: bold;
+      color: #607EAA;
+  }
+  
+  footer a:hover {
+      color: #1C3879;
+  }
+  
+  #socials img {
+      width: 20px;
+      object-fit: fill;
+  }
+  
+  #last {
+      background-color: #1C3879;
+      color: white;
+      margin: 20px 0 0 0;
+      padding: 20px;
+      width: 100%;
+  }
+  
+  
+  /*Targeting the actual container*/
+  
+  .container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    height: 100%;
+    padding: 20px 100px;
+  }
+  
+  /*after the container moves*/
+  .container:after{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%; background:url(https://www.dailybulletin.com/wp-content/uploads/2021/01/IDB-L-ONTHOMELESS-0121-01-WP-1.jpg?w=526) no-repeat center ;
+    background-size:cover;
+    z-index: -1;
+    filter:blur(10px);
+  }
+  
+  .contact-box{
+    width: 850px;
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #EAE3D2;;
+  }
+  
+  .left{
+    height: 100%;
+    background: url(https://www.gannett-cdn.com/presto/2022/01/07/NCDT/b3f622c5-d375-4af3-8944-ea29aa09eaea-homelessness_story000016.JPG) no-repeat center;
+    background-size: cover;
+  }
+  
+  
+  .right{
+     padding: 25px 40px;
+  }
+  
+  label{
+      position: absolute;
+      left:0;
+      top: 0;
+      padding: 10px;
+      color: black;
+      cursor: text;
+      transition: 0.2s;
+    }
+  
+       .input{
+      margin-bottom: 5px;
+      position: relative;
+     }
+  
+    input,textarea, select {
+      width: 100%;
+      padding: 0.5rem 1rem;
+      border: 2px solid #607EAA;
+      border-radius: 5px;
+      box-sizing: border-box;
+      resize: vertical;/* Allow the user to vertically resize the textarea (not horizontally)*/
+      font-size: 15px;
+    }
+  
+  h2{
+    position: relative;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+  }
+  
+  h2:after{
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translatex(-50%);
+    height: 4px;
+    width: 50px;
+    border-radius:2px;
+    background-color: black;
+  }
+  
+  .btn{
+    width: 100px;
+    padding: 0.5rem 1rem;
+    font-size: 1.1rem;
+    background-color:#607EAA;
+    cursor:pointer;
+    outline:none;
+    border:none;
+    color:black;
+    transition:.5s; 
+  }
+  
+  .btn:hover{
+    background-color: #1C3879;
+  }
+  
+  input:focus~label,
+    input:valid~label,
+    textarea:focus~label,
+    textarea:valid~label{
+      top: -35px;
+      font-size: 14px;
+    }
+  
+  /*footer 
+  .footer{
+    display: flex;  
+    justify-content: center;
+    align-content: center;
+     padding-bottom: 30px;
+     padding-top: 30px;
+     margin:0;
+     width: 100%;
+     background-color: #607EAA;
+     color: white;
+  }*/
+  
+  @media screen and (width:830px){
+    .contact-box{
+      grid-template-columns: 1fr;
+    }
+    
+    .left{
+      height: 200px;
+    }
+  }
