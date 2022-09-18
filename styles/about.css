@@ -77,7 +77,7 @@ footer ul li {
 footer {
     background-color: white;
     margin-top: 15px;
-    border-top: 5px solid #F9F5EB;
+    /* border-top: 5px solid #F9F5EB; */
 }
 
 footer a {
@@ -294,6 +294,11 @@ h3 {
     button {
         height: 50px;
         border-radius: 25px;
+    }
+
+    footer nav ul {
+        display: flex;
+        flex-direction: column;
     }
 
 }
