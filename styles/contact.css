@@ -148,8 +148,8 @@ label{
   }
 
    .input{
-    margin-bottom: 5px;
-    position: relative;
+     margin-bottom: 5px;
+     position: relative;
    }
 
   input,textarea, select {
@@ -189,7 +189,8 @@ h2:after{
   outline: none;
   border: none;
   color: black;
-  transition: .5s; 
+  transition: .5s;
+  
 }
 
 .btn:hover{
@@ -208,7 +209,7 @@ h2:after{
 
 
 /* Mobile Media Query */
-@media screen and (max-width: 425px) { 
+@media screen and (min-width: 320px) and (max-width:480px) { 
   
   .container{
    flex-direction: column; 
@@ -225,19 +226,19 @@ h2:after{
   
   label,input,textarea, select{
   font-size: 10px; 
-}
+  }
 
   input:focus~label,
   input:valid~label,
   textarea:focus~label,
   textarea:valid~label{
-    top: -25px;
-    font-size: 8px;
+      top: -25px;
+      font-size: 8px;
   }
   
   #logo{
     display: block;
-width: 100%;
+    width: 100%;
   }
   
   footer {
@@ -272,8 +273,8 @@ width: 100%;
 
 
 /* Media Query Tablet  */
-@media  screen and (min-width: 431px) and (max-width:768px) {
-
+@media  screen and (min-width: 481px) and (max-width:768px) {
+  
 .contact-box{
     display: grid;
     grid-template-columns: 1/3fr;
@@ -286,7 +287,6 @@ width: 100%;
   footer #socials {
     margin-left: 40px;
   }
-
   footer ul {
     display: inline-block;
   }
